@@ -37,7 +37,7 @@ def main():
     # Sidebar for configuration
     with st.sidebar:
         st.header("⚙️ Setup")
-        employee_name = st.text_input("Employee Name", value="Enter your name")
+
         
         col1, col2 = st.columns(2)
         with col1:
